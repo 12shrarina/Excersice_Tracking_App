@@ -1,0 +1,387 @@
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#Navbar {
+  background-color: rgb(35, 13, 13);
+  height: 11vh;
+  color: rgb(240, 231, 231);
+  padding-top: 20px;
+}
+#header {
+  background-color: rgb(36, 14, 14);
+  height: 10vh;
+}
+.logo > div {
+  font-size: 28.3px;
+  line-height: 0.75;
+  color: #ffffff;
+  font-weight: 700;
+}
+.logo > div span {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+#link a {
+  margin: 20px;
+  color: rgb(28, 115, 191);
+  font-weight: bold;
+  padding-left: 10px;
+  color: #fdf8f8;
+  font-size: 18px;
+}
+.carouselitem {
+  background-size: cover;
+  background-position: center;
+}
+.sociallinks i {
+  margin: 10px;
+}
+.footersection {
+  background-color: black;
+  color: aliceblue;
+  padding-top: 20px;
+}
+#flogo {
+  display: flex;
+  align-items: center;
+}
+.workout a {
+  color: aliceblue;
+}
+.footerblog a {
+  color: aliceblue;
+}
+.fbitem i {
+  color: brown;
+}
+.logo i {
+  color: brown;
+}
+.carouselite {
+  width: 100%;
+  height: 100vh;
+}
+.carousel-item {
+  position: relative;
+}
+.carousel_text_con p {
+  text-align: center;
+}
+.carousel_text_con {
+  position: absolute;
+  width: 100%;
+  bottom: 60%;
+  color: #fff;
+}
+#btn {
+  margin-left: 90vh;
+  color: aliceblue;
+}
+#btnhome a {
+  color: #fff;
+}
+#bar3 {
+  color: aqua;
+}
+.barfiller {
+  color: aqua;
+  background-color: aquamarine;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap");
+
+html {
+  height: 100%;
+  width: 100%;
+  background: #111;
+  color: #00cc44;
+  font-family: "Major Mono Display", monospace;
+}
+#wrapper {
+  margin-left: 65vh;
+}
+.wrapper {
+  margin-top: 5%;
+  width: 100%;
+  height: 100%;
+}
+
+.line__1,
+.line__2 {
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0.5rem auto;
+  font-family: "Major Mono Display", monospace;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.line__1 {
+  border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+  /* define animation types for text + cursor */
+  animation: animated-text__1 4s steps(15, end) 1s 1 normal both,
+    animated-cursor__1 500ms steps(15, end) 8;
+}
+
+.line__2 {
+  border-right: 2px solid rgba(17, 17, 17, 0.9);
+
+  /* define animation types for text + cursor */
+  animation: animated-text__2 3s steps(30, end) 1s 1 normal both,
+    animated-cursor__2 500ms steps(30, end) infinite;
+  -webkit-animation-delay: 4s;
+  animation-delay: 3s;
+}
+
+@keyframes animated-cursor__1 {
+  from {
+    border-right-color: rgba(17, 17, 17, 0.9);
+  }
+  to {
+    border-right-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes animated-cursor__2 {
+  from {
+    border-right-color: rgba(17, 17, 17, 0.9);
+  }
+  to {
+    border-right-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+@keyframes animated-text__1 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 45rem;
+  }
+}
+
+@keyframes animated-text__2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 48rem;
+  }
+}
+#trainer1 {
+  background-image: url("/src/pics/trainer1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  position: relative;
+}
+#trainer2 {
+  background-image: url("/src/pics/trainer2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+}
+#trainer3 {
+  background-image: url("/src/pics/trainer3.webp");
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+}
+#trainercard {
+  margin-left: 70px;
+}
+#trainerheading1 {
+  text-align: center;
+  font-size: 40px;
+}
+#trainer4 {
+  background-image: url("/src/pics/trainer4.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+}
+#trainer5 {
+  background-image: url("/src/pics/trainer5.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+}
+#trainer6 {
+  background-image: url("/src/pics/trainer6.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+}
+#servicesheading {
+  text-align: center;
+  font-size: 50px;
+}
+#services1 {
+  background-image: url("/src/pics/services1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+}
+#services2 {
+  background-image: url("/src/pics/services2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+}
+#services {
+  margin-left: 20px;
+}
+.about-img {
+  background-image: url("/src/pics/about1.webp");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 60vh;
+  margin-right: 70vh;
+}
+#select {
+  background-color: rgb(108, 4, 4);
+  border-color: rgb(108, 4, 4);
+  color: rgb(28, 115, 191);
+}
+#select1 {
+  background-color: rgb(108, 4, 4);
+  border-color: rgb(108, 4, 4);
+  color: rgb(28, 115, 191);
+}
+.gallery-img {
+  background-image: url("/src/pics/about2.jpg");
+  height: 60vh;
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+  margin-left: 20px;
+  padding-left: 35vh;
+  margin-top: 40px;
+}
+.small-img {
+  background-image: url("/src/pics/about3.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  width: 40vh;
+}
+.gallery-imges {
+  background-image: url("/src/pics/about4.webp");
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  width: 40vh;
+}
+.gallery-imgs {
+  background-image: url("/src/pics/about5.webp");
+  background-position: center;
+  background-size: cover;
+  height: 40vh;
+  width: 40vh;
+}
+#text {
+  color: rgb(223, 239, 246);
+  font-size: 20px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.overlay:hover .overlay {
+  opacity: 1;
+}
+#contact {
+  text-align: center;
+  color: #fff;
+}
+#contacts {
+  background-color: #111;
+}
+#trainesbg {
+  background-image: url("/src/pics/back.jpg");
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+  font-size: 12px;
+}
+#activity {
+  text-align: center;
+  font-size: boold;
+  font-size: 70px;
+  color: #fff;
+}
+#form {
+  margin-left: 70vh;
+  width: 50%;
+}
+.trainers #overlay {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: none;
+}
+#trainercard:hover #overlay {
+  display: block;
+}
+#date {
+  margin-left: 80vh;
+  color: #ffffff;
+}
+
+#div {
+  background-image: url("/src/pics/prum.jpg");
+  background-position: center;
+  background-size: cover;
+}
+#my {
+  font-size: 90px;
+  font-weight: 500;
+  text-align: center;
+  color: #ffffff;
+}
+#maincard {
+  background-color: antiquewhite;
+  display: flex;
+}
+#over a:hover {
+  text-decoration: none;
+  background-color: rgb(66, 24, 6);
+  width: 0px;
+  padding: 5px;
+}
+.overlay-content {
+  padding-top: 80px;
+  padding-left: 20vh;
+  color: #150303;
+}
+.log {
+  padding: 10px;
+}
+.content {
+  padding-top: 50px;
+  padding-left: 80px;
+}
+#add {
+  background-image: url("/src/pics/add.webp");
+  background-size: cover;
+  background-position: center;
+}
+.imgradius {
+  border-radius: 50%;
+}
+.cardImg img {
+  height: 40vh;
+  object-fit: cover;
+}
